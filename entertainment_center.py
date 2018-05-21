@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import media
-import fresh_tomatoes
+import movies
 
 ban = media.Movie(
     "Bharat Ane Nenu", "political",
@@ -27,4 +27,4 @@ kn = media.Movie(
 
 all_movies = [ban, aiw, ky, rslm, kn]
 
-fresh_tomatoes.open_movies_page(all_movies)
+movies.open_movies_page(all_movies)
