@@ -2,6 +2,12 @@
 import media
 import movies
 
+# It is the starting point of  project
+# It import media module which contains movie class
+# and initialize the movie with name Trailer_link etc.
+# Then generates list of movies and pass them to open_movies_page
+# function which will create page with movies and opens it in browser
+
 ban = media.Movie(
     "Bharat Ane Nenu", "political",
     "https://bit.ly/2rZb44y",
